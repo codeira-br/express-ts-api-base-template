@@ -3,6 +3,7 @@ import type { ErrorRequestHandler } from "express";
 import { ApplicationError } from "../errors/application-error.js";
 import logger from "../lib/logger.js";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const errorHandler: ErrorRequestHandler = (err, req, res, _next) => {
   if (err instanceof ApplicationError) {
     logger.warn(
