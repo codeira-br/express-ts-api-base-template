@@ -26,7 +26,9 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
+    "@types/helmet": "^0.0.48",
     "eslint": "^10.10.0",
     "eslint-config-prettier": "^10.1.8",
     "nodemon": "^3.1.14",
@@ -36,6 +38,8 @@
     "typescript-eslint": "^8.70.0"
   },
   "allowScripts": {
-    "@types/express@5.0.6": true
+    "@types/express@5.0.6": true,
+    "@types/cors@2.8.19": true,
+    "@types/helmet@0.0.48": true
   }
 }
